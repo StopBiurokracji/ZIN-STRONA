@@ -14,27 +14,55 @@
                 <li><a href="#komiksy">Komiksy</a></li>
                 <li><a href="#petycja">Petycja</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#licznik">Licznik</a></li>
+                <li><a href="#en">English</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="o-co-chodzi">
             <h2>O co chodzi?</h2>
-            <p>ZIN to obywatelska inicjatywa tworząca system współdecydowania o państwie przez wszystkich obywateli.</p>
+            <p>ZIN to obywatelska inicjatywa tworząca system współdecydowania o państwie przez wszystkich obywateli. 
+            Celem projektu jest wprowadzenie nowego modelu ustroju, opartego na zbiorowej inteligencji i pełnej przejrzystości decyzji.</p>
         </section>
+
         <section id="komiksy">
             <h2>Komiksy</h2>
-            <p>Poznaj serię edukacyjnych komiksów ZIN. <br><a href="#">Przeglądaj komiksy</a></p>
+            <p>Zobacz nasze edukacyjne komiksy:</p>
+            <ul>
+                <li><a href="komiksy/komiks1.pdf" target="_blank">Komiks 1 – System się nie zmieni sam</a></li>
+                <li><a href="komiksy/komiks2.pdf" target="_blank">Komiks 2 – Potwór Biurokracji</a></li>
+            </ul>
+            <p><a href="komiksy/komiksy_ZIN.zip">📥 Pobierz wszystkie komiksy (ZIP)</a></p>
         </section>
+
         <section id="petycja">
             <h2>Podpisz petycję</h2>
-            <p><a href="#">Kliknij tutaj, aby podpisać petycję i poprzeć projekt ZIN</a></p>
+            <form onsubmit="return submitForm();">
+                <label>Imię i nazwisko:<br><input type="text" required></label><br>
+                <label>Email:<br><input type="email" required></label><br>
+                <button type="submit">Podpisz petycję</button>
+            </form>
+            <p id="confirmation"></p>
         </section>
+
         <section id="kontakt">
             <h2>Kontakt</h2>
-            <p>Skontaktuj się z nami: kontakt@stopbiurokracji.com.pl</p>
+            <p>Masz pytania? Napisz do nas: <a href="mailto:kontakt@stopbiurokracji.com.pl">kontakt@stopbiurokracji.com.pl</a></p>
+        </section>
+
+        <section id="licznik">
+            <h2>Licznik podpisów i odwiedzin</h2>
+            <p>📊 Liczba podpisów: <span id="signatures">1423</span></p>
+            <p>👁️ Odwiedziny strony: <span id="visits">5189</span></p>
+        </section>
+
+        <section id="en">
+            <h2>🇬🇧 English version</h2>
+            <p><a href="index_en.html">Click here for English version of the site</a></p>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2025 ZIN – Zbiorowa Inteligencja Narodu</p>
     </footer>

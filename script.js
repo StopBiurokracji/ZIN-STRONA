@@ -1,3 +1,7 @@
+function submitForm() {
+    document.getElementById('confirmation').innerText = '✅ Dziękujemy za Twój podpis!';
+    return false;
+}
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("ZIN – strona główna załadowana.");
+    console.log("ZIN – wersja rozszerzona załadowana.");
 });
