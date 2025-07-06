@@ -3,51 +3,69 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
-    background-color: #fdfdfd;
 }
 
 header {
-    background-color: #003366;
+    background-color: #002a5c;
     color: white;
     padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav a {
-    margin: 0 10px;
-    color: #ffffff;
+    margin: 0 15px;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-main {
-    padding: 40px 20px;
+#intro {
+    text-align: center;
+    padding: 20px;
 }
 
-.hero-img {
-    max-width: 80%;
-    height: auto;
-    margin-bottom: 30px;
-}
-
-.big-question {
-    font-size: 28px;
-    color: #cc0000;
+.intro-text .pytanie {
+    font-size: 2rem;
+    color: red;
     margin: 10px 0;
 }
 
-.slogan {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+.intro-text h2 {
+    font-size: 5rem;
+    color: red;
+    margin: 20px 0;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #cc0000;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.zjawisko {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    background: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+    .intro-text .pytanie {
+        font-size: 1.3rem;
+    }
+    .intro-text h2 {
+        font-size: 3rem;
+    }
+    .zjawisko {
+        font-size: 1rem;
+    }
 }
