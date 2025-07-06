@@ -1,71 +1,74 @@
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: white;
+  color: #111;
 }
 
 header {
-    background-color: #002a5c;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background: #003366;
+  color: white;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 nav {
-    margin-top: 10px;
+  margin-top: 5px;
 }
 
 nav a {
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 0.95rem;
 }
 
-#intro {
-    text-align: center;
-    padding: 20px;
+main {
+  padding: 20px;
 }
 
-.intro-text .pytanie {
-    font-size: 2rem;
-    color: red;
-    margin: 10px 0;
+.intro {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.intro-text h2 {
-    font-size: 5rem;
-    color: red;
-    margin: 20px 0;
+.pytanie1,
+.pytanie2 {
+  font-size: 1.5rem;
+  color: #c00;
+  margin: 10px 0;
 }
 
-.intro-image img {
-    max-width: 100%;
-    height: auto;
+.pytanie1 span,
+.pytanie2 span {
+  font-weight: bold;
 }
 
-.zjawisko {
-    font-size: 1.5rem;
-    color: red;
-    margin-top: 20px;
+h2 {
+  font-size: 3.5rem;
+  color: #c00;
+  margin: 20px 0;
+}
+
+.hands {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.koncowe {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #c00;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9rem;
-    background: #f2f2f2;
-}
-
-@media screen and (max-width: 768px) {
-    .intro-text .pytanie {
-        font-size: 1.3rem;
-    }
-    .intro-text h2 {
-        font-size: 3rem;
-    }
-    .zjawisko {
-        font-size: 1rem;
-    }
+  background: #f0f0f0;
+  padding: 10px;
+  font-size: 0.9rem;
 }
