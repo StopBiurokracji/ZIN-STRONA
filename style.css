@@ -1,74 +1,68 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
-  background: white;
-  color: #111;
+  background-color: #fefdf8;
 }
 
-header {
-  background: #003366;
-  color: white;
-  padding: 10px 0;
-}
-
-header h1 {
+nav ul {
+  list-style: none;
   margin: 0;
-  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #003366;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-nav {
-  margin-top: 5px;
+nav ul li {
+  margin: 0 15px;
 }
 
-nav a {
+nav ul li a {
   color: white;
-  margin: 0 10px;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-main {
-  padding: 20px;
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
-.intro {
-  max-width: 1000px;
-  margin: 0 auto;
+.hero {
+  background: url('images/banner-hands.png') no-repeat center center;
+  background-size: cover;
+  padding: 80px 20px 60px 20px;
+  text-align: center;
+  color: #cc0000;
 }
 
-.pytanie1,
-.pytanie2 {
-  font-size: 1.5rem;
-  color: #c00;
+.hero-text h1 {
+  font-size: 60px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.hero-text h2 {
+  font-size: 28px;
   margin: 10px 0;
 }
 
-.pytanie1 span,
-.pytanie2 span {
+.hero-text .tagline {
+  font-size: 22px;
+  color: #cc0000;
+  margin-top: 30px;
+}
+
+.highlight {
   font-weight: bold;
-}
-
-h2 {
-  font-size: 3.5rem;
-  color: #c00;
-  margin: 20px 0;
-}
-
-.hands {
-  width: 100%;
-  height: auto;
-  margin: 20px 0;
-}
-
-.koncowe {
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #c00;
+  color: #cc0000;
 }
 
 footer {
-  background: #f0f0f0;
-  padding: 10px;
-  font-size: 0.9rem;
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
 }

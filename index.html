@@ -1,72 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>ZIN – Zbiorowa Inteligencja Narodu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: white;
-            color: #cc0000;
-            text-align: center;
-        }
-        .banner {
-            position: relative;
-            width: 100%;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .banner img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .overlay-text {
-            position: absolute;
-            width: 100%;
-            top: 5%;
-            font-size: 2.5vw;
-            font-weight: bold;
-        }
-        .overlay-text.middle {
-            top: 25%;
-            font-size: 6vw;
-        }
-        .overlay-text.lower {
-            top: 45%;
-            font-size: 2.5vw;
-        }
-        .overlay-text.bottom {
-            top: 75%;
-            font-size: 2vw;
-            color: #cc0000;
-        }
-        @media (max-width: 768px) {
-            .overlay-text {
-                font-size: 4vw;
-            }
-            .overlay-text.middle {
-                font-size: 8vw;
-            }
-            .overlay-text.lower {
-                font-size: 4vw;
-            }
-            .overlay-text.bottom {
-                font-size: 3vw;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>ZIN – Zbiorowa Inteligencja Narodu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="banner">
-        <img src="hands_banner.png" alt="Dłonie ZIN">
-        <div class="overlay-text">czy demokracja to już historia?</div>
-        <div class="overlay-text middle">ZIN</div>
-        <div class="overlay-text lower">a może ZIN to jej następny etap?</div>
-        <div class="overlay-text bottom">Intrygujące zjawisko, które dotyczy Ciebie na 1000%!</div>
-    </div>
+
+<nav>
+  <ul>
+    <li><a href="index.html">O co chodzi</a></li>
+    <li><a href="komiksy.html">Komiksy</a></li>
+    <li><a href="petycja.html">Podpisz petycję</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="licznik.html">Licznik</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>czy <span class="highlight">demokracja</span> to już <span class="highlight">historia</span>?</h2>
+    <h1>ZIN</h1>
+    <h2>a może <span class="highlight">ZIN</span> to jej <span class="highlight">następny etap</span>?</h2>
+    <p class="tagline">Intrygujące zjawisko, które dotyczy Ciebie na <strong>1000%</strong>!</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 ZIN – Zbiorowa Inteligencja Narodu. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
 </body>
 </html>
