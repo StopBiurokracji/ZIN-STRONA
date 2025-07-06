@@ -9,63 +9,44 @@
     <header>
         <h1>ZIN – Zbiorowa Inteligencja Narodu</h1>
         <nav>
-            <ul>
-                <li><a href="#o-co-chodzi">O co chodzi</a></li>
-                <li><a href="#komiksy">Komiksy</a></li>
-                <li><a href="#petycja">Petycja</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-                <li><a href="#licznik">Licznik</a></li>
-                <li><a href="#en">English</a></li>
-            </ul>
+            <a href="#o-co-chodzi">O co chodzi</a>
+            <a href="#komiksy">Komiksy</a>
+            <a href="#petycja">Petycja</a>
+            <a href="#kontakt">Kontakt</a>
+            <a href="#licznik">Licznik</a>
+            <a href="en.html">English</a>
         </nav>
     </header>
-    <main>
-        <section id="o-co-chodzi">
-            <h2>O co chodzi?</h2>
-            <p>ZIN to obywatelska inicjatywa tworząca system współdecydowania o państwie przez wszystkich obywateli. 
-            Celem projektu jest wprowadzenie nowego modelu ustroju, opartego na zbiorowej inteligencji i pełnej przejrzystości decyzji.</p>
-        </section>
-
-        <section id="komiksy">
-            <h2>Komiksy</h2>
-            <p>Zobacz nasze edukacyjne komiksy:</p>
-            <ul>
-                <li><a href="komiksy/komiks1.pdf" target="_blank">Komiks 1 – System się nie zmieni sam</a></li>
-                <li><a href="komiksy/komiks2.pdf" target="_blank">Komiks 2 – Potwór Biurokracji</a></li>
-            </ul>
-            <p><a href="komiksy/komiksy_ZIN.zip">📥 Pobierz wszystkie komiksy (ZIP)</a></p>
-        </section>
-
-        <section id="petycja">
-            <h2>Podpisz petycję</h2>
-            <form onsubmit="return submitForm();">
-                <label>Imię i nazwisko:<br><input type="text" required></label><br>
-                <label>Email:<br><input type="email" required></label><br>
-                <button type="submit">Podpisz petycję</button>
-            </form>
-            <p id="confirmation"></p>
-        </section>
-
-        <section id="kontakt">
-            <h2>Kontakt</h2>
-            <p>Masz pytania? Napisz do nas: <a href="mailto:kontakt@stopbiurokracji.com.pl">kontakt@stopbiurokracji.com.pl</a></p>
-        </section>
-
-        <section id="licznik">
-            <h2>Licznik podpisów i odwiedzin</h2>
-            <p>📊 Liczba podpisów: <span id="signatures">1423</span></p>
-            <p>👁️ Odwiedziny strony: <span id="visits">5189</span></p>
-        </section>
-
-        <section id="en">
-            <h2>🇬🇧 English version</h2>
-            <p><a href="index_en.html">Click here for English version of the site</a></p>
-        </section>
-    </main>
-
+    <section id="o-co-chodzi">
+        <h2>O co chodzi?</h2>
+        <p>ZIN to obywatelska inicjatywa tworząca system współdecydowania o państwie przez wszystkich obywateli...</p>
+    </section>
+    <section id="komiksy">
+        <h2>Komiksy</h2>
+        <ul>
+            <li><a href="komiksy/komiks1.pdf" target="_blank">Komiks 1 – System się nie zmieni sam</a></li>
+            <li><a href="komiksy/komiks2.pdf" target="_blank">Komiks 2 – Potwór Biurokracji</a></li>
+        </ul>
+        <a href="komiksy.zip">Pobierz wszystkie komiksy (ZIP)</a>
+    </section>
+    <section id="petycja">
+        <h2>Podpisz petycję</h2>
+        <form>
+            <input type="text" placeholder="Imię i nazwisko"><br>
+            <input type="email" placeholder="Email"><br>
+            <button type="submit">Podpisz petycję</button>
+        </form>
+    </section>
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>kontakt@stopbiurokracji.com.pl</p>
+    </section>
+    <section id="licznik">
+        <h2>Licznik podpisów i odwiedzin</h2>
+        <p>Liczba podpisów: 1423<br>Odwiedziny strony: 5189</p>
+    </section>
     <footer>
-        <p>&copy; 2025 ZIN – Zbiorowa Inteligencja Narodu</p>
+        <p>© 2025 ZIN – Zbiorowa Inteligencja Narodu</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
