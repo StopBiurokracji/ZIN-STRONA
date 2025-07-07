@@ -1,79 +1,36 @@
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>ZIN – Zbiorowa Inteligencja Narodu</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f6ee;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        .header-text {
-            padding-top: 40px;
-            color: #cc0000;
-        }
-        .header-text h1 {
-            font-size: 48px;
-            margin: 0;
-        }
-        .header-text h2 {
-            font-size: 28px;
-            margin: 10px 0;
-        }
-        .header-text p {
-            font-size: 20px;
-            margin-top: 20px;
-        }
-        .header-banner img {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin: 30px auto 0 auto;
-        }
-        nav {
-            background-color: #002b5c;
-            padding: 15px 0;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        footer {
-            background-color: #002b5c;
-            color: white;
-            padding: 10px 0;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav>
-        <a href="#">O co chodzi</a>
-        <a href="#">Komiksy</a>
-        <a href="#">Podpisz petycję</a>
-        <a href="#">Kontakt</a>
-        <a href="#">Licznik</a>
-    </nav>
-
-    <div class="header-text">
-        <h2>czy demokracja to już historia?</h2>
-        <h1>ZIN</h1>
-        <h2>a może ZIN to jej następny etap?</h2>
-        <p>Intrygujące zjawisko, które dotyczy Ciebie na 1000%!</p>
-    </div>
-
-    <div class="header-banner">
-        <img src="assets/banner-hands.png" alt="Podniesione ręce ZIN">
-    </div>
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">O co chodzi</a></li>
+                <li><a href="komiksy.html">Komiksy</a></li>
+                <li><a href="petycja.html">Podpisz petycję</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="licznik.html">Licznik</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>czy demokracja to już historia?</h2>
+            <h1><strong>ZIN</strong></h1>
+            <h3>a może ZIN to jej następny etap?</h3>
+            <p>Intrygujące zjawisko, które dotyczy Ciebie na <strong>1000%</strong>!</p>
+        </section>
+        <section class="banner">
+            <img src="banner-hands.png" alt="Wiele rąk uniesionych w górę" />
+        </section>
+    </main>
     <footer>
-        © 2025 ZIN – Zbiorowa Inteligencja Narodu. Wszelkie prawa zastrzeżone.
+        <p>© 2025 ZIN – Zbiorowa Inteligencja Narodu. Wszelkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
